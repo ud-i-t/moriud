@@ -1,0 +1,31 @@
+﻿body{
+  background-color: #fff;
+}
+
+div#wrapper{
+  height: 100%;
+  width: 800px;
+  margin: 0 auto 0 auto;
+}
+
+div.title{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+div.subtitle{
+  font-size: 32px;
+}
+
+div#top_content{
+  background-image: url("./sozai/bg.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  height: 400px;
+  width: 800px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin:auto;
+}
