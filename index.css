@@ -5,6 +5,7 @@
 div#wrapper{
   height: 100%;
   width: 800px;
+  box-shadow: 5px 5px 10px 0px #333333;
 }
 
 div#top_content{
