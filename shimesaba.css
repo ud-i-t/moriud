@@ -1,5 +1,6 @@
 ﻿body{
   background-color: #fff;
+  font-size: 20px;
 }
 
 div#wrapper{
@@ -33,6 +34,13 @@ div#top_content{
   margin:auto;
 }
 
+p.note {
+  font-size: 14px;
+  padding: 6px;
+  border: 1px solid #999;
+  color: #666;
+}
+
 #entryButton {
   margin: 40px auto 40px auto;
   display: block;
@@ -44,4 +52,9 @@ div#top_content{
   border-radius: 12px;
   font-size: 32px;
   font-weight: bold;
+}
+
+#entryButton:hover {
+  background-color: #ddb;
+  cursor: pointer;
 }
