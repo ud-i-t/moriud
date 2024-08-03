@@ -34,6 +34,13 @@ div#top_content{
   margin:auto;
 }
 
+div.separator
+{
+  margin-top: 64px;
+  margin-bottom: 64px;
+  text-align: center;
+}
+
 p.note {
   font-size: 14px;
   padding: 6px;
