@@ -43,7 +43,7 @@ div.separator
 }
 
 p.note {
-  font-size: 14px;
+  font-size: 16px;
   padding: 6px;
   border: 1px solid #999;
   color: #666;
@@ -69,7 +69,7 @@ p.note {
 
 @media screen and (max-width: 959px) {
   body{
-    font-size: 32px;
+    /* font-size: 20px; */
   }
   
   div#wrapper{
@@ -77,24 +77,23 @@ p.note {
   }
 
   div.title{
-    font-size: 36px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
   }
   
   div.subtitle{
-    font-size: 48px;
-    border-bottom: 2px solid #444;
+    /* font-size: 48px; */
   }
 
   p.note {
-    font-size: 32px;
+    /* font-size: 32px; */
   }
 
   #entryButton {
     margin: 120px auto 20px auto;
     width: 100%;
     padding: 36px;
-    font-size: 48px;
+    font-size: 28px;
   }
 }
